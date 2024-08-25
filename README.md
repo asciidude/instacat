@@ -17,7 +17,7 @@ In your main.py file, change "username" and "password" to your username and pass
 ## Enabling/Disabling Downloads
 To enable/disable image downloads (eg. if you're simply restarting or do daily restarts) you can change the `downloading` variable to "disabled". To re-enable it, change it to `False`.
 
-**It is automatically disabled by default.**
+**It is automatically disabled by default.** It is kind of slow and you should probably opt for just adding your own images to a `downloaded` directory within your project folder.
 
 ### License
 This project is licensed under MIT.
