@@ -64,10 +64,8 @@ def download_cat_sync():
                 files = RedDownloader.DownloadImagesBySubreddit('cat', 5, 'new')
                 downloading = False
                 return files
-        else:
-            return []
-    else:
-        return []
+                
+    return []
 
 def get_random_image(download_dir='downloaded'):
     items = [f for f in listdir(download_dir) if path.join(download_dir, f)]
