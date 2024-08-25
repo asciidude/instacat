@@ -6,6 +6,7 @@ Due to the lack of flexibility in terms of events with InstagrAPI, I had to impl
 Honestly, this project was extremely tedious to work with and took a total of 3 hours and 45 minutes to complete. Even now, I am not sure if it will properly handle *all* errors, but regardless I'm not going to continue working on this. It's entire intention was a silly project, and that it did well.
 
 #### You should run this program on a quality, not shared proxy and use a different account for Instagram. If you are using your own computer, run this with a quality VPN to avoid blacklist.
+#### Also, do NOT login in short periods of times. This can also get you blacklisted. Wait at least 1 minute before logging in again.
 
 ## Dependencies
 - instagrapi
