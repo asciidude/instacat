@@ -14,5 +14,10 @@ Honestly, this project was extremely tedious to work with and took a total of 3 
 ## Logging in
 In your main.py file, change "username" and "password" to your username and password for Instagram.
 
+## Enabling/Disabling Downloads
+To enable/disable image downloads (eg. if you're simply restarting or do daily restarts) you can change the `downloading` variable to "disabled". To re-enable it, change it to `False`.
+
+**It is automatically disabled by default.**
+
 ### License
 This project is licensed under MIT.
