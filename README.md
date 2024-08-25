@@ -15,7 +15,7 @@ Honestly, this project was extremely tedious to work with and took a total of 3 
 In your main.py file, change "username" and "password" to your username and password for Instagram.
 
 ## Enabling/Disabling Downloads
-To enable/disable image downloads (eg. if you're simply restarting or do daily restarts) you can change the `downloading` variable to "disabled". To re-enable it, change it to `False`. This will download 5 images from r/cat. You can change this but RedDownloader does *not* work well.
+To enable/disable image downloads (eg. if you're simply restarting or do daily restarts) you can change the `downloading` variable to "disabled". To re-enable it, change it to `False`. This will download 5 images from r/cat. You can change this but RedDownloader does *not* work well over 5-10 image downloads.
 
 **It is automatically disabled by default.** It is kind of slow and you should probably opt for just adding your own images to a `downloaded` directory within your project folder.
 
