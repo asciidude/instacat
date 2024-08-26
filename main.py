@@ -54,10 +54,10 @@ def download_cat_sync():
     global downloading
 
     if downloading != 'disabled':
-        if path.exists('downloaded'):
-            rmtree('downloaded')
-
         if downloading is False:
+            if path.exists('downloaded'):
+                rmtree('downloaded')
+            
             downloading = True
 
             while True:
