@@ -53,17 +53,16 @@ def process_message_sync(message):
 def download_cat_sync():
     global downloading
 
-    if downloading != 'disabled':
-        if downloading is False:
-            if path.exists('downloaded'):
-                rmtree('downloaded')
+    if downloading != 'disabled' or downloading is False:
+        if path.exists('downloaded'):
+            rmtree('downloaded')
             
-            downloading = True
+        downloading = True
 
-            while True:
-                files = RedDownloader.DownloadImagesBySubreddit('cat', 5, 'new')
-                downloading = False
-                return files
+        while True:
+            files = RedDownloader.DownloadImagesBySubreddit('cat', 5, 'new')
+            downloading = False
+            return files
                 
     return []
 
