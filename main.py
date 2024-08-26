@@ -53,7 +53,7 @@ def process_message_sync(message):
 def download_cat_sync():
     global downloading
 
-    if downloading != 'disabled' or downloading is False:
+    if downloading != 'disabled' and downloading is False:
         if path.exists('downloaded'):
             rmtree('downloaded')
             
